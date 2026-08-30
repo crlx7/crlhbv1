@@ -1,0 +1,17 @@
+[application]
+config/name="CAREER XI"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.3")
+[autoload]
+Career="*res://scripts/systems/career_system.gd"
+SaveGame="*res://scripts/systems/save_system.gd"
+[display]
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/size/window_width_override=405
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+[text]
